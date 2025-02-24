@@ -1,0 +1,8 @@
+[Geoclue Provider]
+Name=Qmi Loc Provider
+Service=org.freedesktop.Geoclue.Providers.Qmi
+Path=/org/freedesktop/Geoclue/Providers/Qmi
+Interfaces=org.freedesktop.Geoclue.Position;org.freedesktop.Geoclue.Velocity
+Provides=ProvidesUpdates
+Accuracy=Detailed
+Requires=RequiresGPS
